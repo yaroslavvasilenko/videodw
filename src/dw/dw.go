@@ -2,6 +2,7 @@ package dw
 
 import (
 	"fmt"
+	"github.com/yaroslavvasilenko/videodw/src/dw/url"
 	"io"
 	"log"
 	"net/http"
@@ -9,7 +10,6 @@ import (
 	"strconv"
 	"sync"
 	"time"
-	"video-dw/src/dw/url"
 )
 
 func DownloadFile(filepath string, urls []string) {
