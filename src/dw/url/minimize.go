@@ -1,4 +1,4 @@
-package handler_url
+package url
 
 import "regexp"
 
